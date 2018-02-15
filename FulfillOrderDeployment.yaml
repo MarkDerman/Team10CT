@@ -26,7 +26,7 @@ spec:
         - name: TEAMNAME
           value: team10-ct
         - name: MONGOHOST
-          value: mongodb://queenly-monkey-mongodb.default.svc.cluster.local
+          value: mongodb://Team10:shambles@team10mongodb-mongodb/Team10DB
       volumes:
         - name: storage
           persistentVolumeClaim:
