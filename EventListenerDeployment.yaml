@@ -25,7 +25,7 @@ spec:
         - name: PROCESSENDPOINT
           value: http://fullfilorder-service:8080/v1/order/
         - name: TEAMNAME
-            value: team10-ct
+          value: team10-ct
 
 
  
