@@ -23,7 +23,7 @@ spec:
         - name: RABBITMQHOST
           value: amqp://team10:shambles@team10-rabbitmq
         - name: PROCESSENDPOINT
-          value: http://fulfillorder:8080/v1/order/
+          value: http://fullfilorder-service:8080/v1/order/
         - name: TEAMNAME
             value: team10-ct
 
