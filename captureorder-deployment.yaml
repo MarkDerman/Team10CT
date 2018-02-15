@@ -1,0 +1,29 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: captureorder-deployment
+  labels:
+    app: captureorder
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: captureorder
+  template:
+    metadata:
+      labels:
+        app: captureorder
+    spec:
+      containers:
+      - name: captureorder
+        image: shanepeckham/captureorderack:v5
+        ports:
+        - containerPort: 8080
+        env:
+        - name: TEAMNAME
+          value: team10-ct
+        - name: MONGOHOST
+          value: mongodb://queenly-monkey-mongodb.default.svc.cluster.local
+        - name: RABBITMQHOST
+          value: amqp://dozing-bronco-rabbitmq.default.svc.cluster.local:5672
+  
