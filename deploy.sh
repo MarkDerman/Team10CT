@@ -1,8 +1,8 @@
-az storage account create -g Team10V2 -name=team10ct --sku Standard_LRS
+az storage account create -g Team10V2 -n team10ct --sku Standard_LRS
 
 helm install --name team10 -f MongoDBValues.yaml stable/mongodb
 
-helm install --name team10 -f RabbitMQValues.yaml stable/rabbitmq
+helm install --name team10rabbit -f RabbitMQValues.yaml stable/rabbitmq
 
 kubectl create -f Storage.yaml
 

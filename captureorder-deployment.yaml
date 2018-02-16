@@ -25,5 +25,5 @@ spec:
         - name: MONGOHOST
           value: mongodb://Team10:shambles@team10-mongodb/Team10DB
         - name: RABBITMQHOST
-          value: amqp://team10:shambles@team10-rabbitmq
+          value: amqp://team10:shambles@team10rabbit-rabbitmq
   
