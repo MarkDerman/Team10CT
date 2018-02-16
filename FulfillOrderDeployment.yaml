@@ -30,7 +30,7 @@ spec:
       volumes:
         - name: storage
           persistentVolumeClaim:
-            claimName: azurefilestorage
+            claimName: team10pvc
 
 
  
