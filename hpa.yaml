@@ -1,8 +1,8 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name:
-  namespace:
+  name: team10-hpa
+  namespace: default
 spec:
   maxReplicas: 15
   minReplicas: 3
