@@ -25,5 +25,5 @@ spec:
         - name: MONGOHOST
           value: mongodb://queenly-monkey-mongodb.default.svc.cluster.local
         - name: RABBITMQHOST
-          value: amqp://team10:shambles@team10-rabbitmq
+          value: amqp://team10:shambles@team10rabbitmqha-rabbitmq
   
