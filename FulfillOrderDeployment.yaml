@@ -26,7 +26,7 @@ spec:
         - name: TEAMNAME
           value: team10-ct
         - name: MONGOHOST
-          value: mongodb://Team10:shambles@team10mongodb-mongodb/Team10DB
+          value: mongodb://Team10:shambles@team10-mongodb/Team10DB
       volumes:
         - name: storage
           persistentVolumeClaim:

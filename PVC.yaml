@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: team10pvc
 spec:
-  storageClassName: azurefilestorage
+  storageClassName: azurefilestorage  
   accessModes:
     - ReadWriteOnce
   resources:

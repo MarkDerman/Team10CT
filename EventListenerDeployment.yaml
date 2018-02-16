@@ -21,7 +21,7 @@ spec:
         - containerPort: 8080
         env:
         - name: RABBITMQHOST
-          value: amqp://team10:shambles@team10rabbitmqha-rabbitmq
+          value: amqp://team10:shambles@team10-rabbitmq
         - name: PROCESSENDPOINT
           value: http://fullfilorder-service:8080/v1/order/
         - name: TEAMNAME

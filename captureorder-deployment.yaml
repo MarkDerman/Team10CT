@@ -5,7 +5,7 @@ metadata:
   labels:
     app: captureorder
 spec:
-  replicas: 3
+  replicas: 20
   selector:
     matchLabels:
       app: captureorder
@@ -23,7 +23,7 @@ spec:
         - name: TEAMNAME
           value: team10-ct
         - name: MONGOHOST
-          value: mongodb://queenly-monkey-mongodb.default.svc.cluster.local
+          value: mongodb://Team10:shambles@team10-mongodb/Team10DB
         - name: RABBITMQHOST
-          value: amqp://team10:shambles@team10rabbitmqha-rabbitmq
+          value: amqp://team10:shambles@team10-rabbitmq
   
