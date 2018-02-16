@@ -14,11 +14,7 @@ kubectl create -f captureorder-service.yaml
 kubectl create -f FulfillOrderDeployment.yaml
 kubectl create -f fulfillorder-service.yaml
 
-
 kubectl create -f EventListenerDeployment.yaml
 kubectl create -f event-listener-service.yaml
-
-kubectl create -f captureorder-service.yaml
-
 
 
