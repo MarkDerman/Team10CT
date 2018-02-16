@@ -1,0 +1,1 @@
+helm install --name team10ha -f RabbitMQValues.yaml stable/rabbitmq
